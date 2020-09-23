@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Functions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="box">
+            <h1>.hide</h1>
+            <button id="clickToHide">Click me to hide the paragraph!</button>
+            <p id="hideParagraph">Click the button to hide me!</p>
+        </div>
+        <div class="box">
+            <h1>.show</h1>
+            <button id="clickToShow">Click me to show the paragraph!</button>
+            <p id="showParagraph">You are shown the secret paragraph!</p>
+        </div>
+        <div class="box">
+            <h1>.toggle</h1>
+            <button id="clickToToggle">Click me to toggle the paragraph!</button>
+            <p id="toggleParagraph">Click the button to toggle me!</p>
+        </div>
+        <div class="box">
+            <h1>.slideDown</h1>
+            <button id="clickToSlideDown">Click me to slide down paragraph!</button>
+            <p id="slideDownParagraph">I'm the paragraph sliding down!</p>
+        </div>
+
+        <div class="box">
+            <h1>.slideUp</h1>
+            <button id="clickToSlideUp">Click me to slide up the paragraph!</button>
+            <p id="slideUpParagraph">I'm the paragraph sliding up!</p>
+        </div>
+
+        <div class="box">
+            <h1>.slideToggle</h1>
+            <button id="clickToSlideToggle">Click me to slide toggle the paragraph!</button>
+            <p id="slideToggleParagraph">I'm the paragraph slide-toggling!</p>
+        </div>
+
+        <div class="box">
+            <h1>.fadeIn</h1>
+            <button id="clickToFadeIn">Click me to fade in an image!</button>
+            <img src="images/captMarvel.jpg" id="captMarvel">
+        </div>
+
+        <div class="box">
+            <h1>.fadeOut</h1>
+            <p>Hover over the image to make it fade out!</p>
+            <img src="images/scarletWitch.gif" id="scarletWitch">
+        </div>
+
+        <div class="box">
+            <h1>.addClass</h1>
+            <button id="clickToAddClass">Click to add a class to the paragraph!</button>
+            <p id="addClassParagraph">Click the button to highlight me!</p>
+        </div>
+
+        <div class="box">
+            <h1>.before</h1>
+            <button id="clickToBefore">Click to add text BEFORE the paragraph!</button>
+            <p id="beforeParagraph">Click the button to add some text BEFORE me!</p>
+        </div>
+
+        <div class="box">
+            <h1>.after</h1>
+            <button id="clickToAfter">Click to add text AFTER the paragraph!</button>
+            <p id="afterParagraph">Click the button to add some text AFTER me!</p>
+        </div>
+
+        <div class="box">
+            <h1>.append</h1>
+            <p id="appendParagraph">Hover over the image to append a new paragraph!</p>
+            <img src="images/drStrange.jpg" id="drStrange">
+        </div>
+
+        <div class="box">
+            <h1>.html</h1>
+            <p id="replaceHTML">Don't like change?</p>
+            <button id="clickToChange">Click to replace HTML!</button>
+            <img src="images/ironMan.jpg" id="ironMan" alt="Iron Man" width="200">
+        </div>
+
+        <div class="box">
+            <h1>.attr</h1>
+            <img src="images/hulk.jpg" id="hulk" alt="The Hulk" width="280">
+            <button id="clickToShrink">Decrease image width by 10px</button>
+        </div>
+
+        <div class="box">
+            <h1>.val & .text</h1>
+            <p id="replaceHTML1"></p>
+            <input type="text" id="text" name="text"><br><br>
+            <label for="text">Write whatever you want here and add it into an HTML tag!</label>
+            <input id="submit" type="submit" value="Submit">
+        </div>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>

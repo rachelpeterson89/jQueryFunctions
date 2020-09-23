@@ -1,1 +1,51 @@
+body {
+    background-color: rgb(11, 15, 68);
+    transition: 1sec;
+}
 
+#wrapper {
+    background-color:  rgb(28, 44, 97);
+    max-width: 800px;
+    margin: 0px auto;
+    border-radius: 5%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#showParagraph {
+    display: none;
+}
+
+#slideDownParagraph {
+    display: none;
+}
+
+.box {
+    background-color: rgb(176, 208, 240);
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#captMarvel {
+    height: 50%;
+    display: none;
+}
+
+#scarletWitch {
+    height: 50%;
+}
+
+#drStrange {
+    height: 50%;
+}
+
+.highlight {
+    border-radius: 10%;
+    background-color: yellow;
+    padding: 20px;
+}
